@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="judul">
+        <h1>Calculator</h1>
+    </div>
+    <div class="container">
+        <div class="body-calculator">
+            <div class="atas">
+                <div class="layar">
+                    <input class="layar" type="text" id="hasil" disabled />
+                </div>  
+            </div>
+            <div class="nomor">
+                <div class="number">
+                    <button value="AC" onclick="hapus()">AC</button>
+                </div>
+                <div class="number">
+                    <button onclick="backspace()">C</button>
+                </div>
+                <div class="number">
+                    <button value="%" onclick="tampilan('%')">%</button>
+                </div>
+                <div class="number">
+                    <button class="pinggir" value="/" onclick="tampilan('/')">/</button>
+                </div>
+                <div class="number">
+                    <button value="7" onclick="tampilan('7')">7</button>
+                </div>
+                <div class="number">
+                    <button value="8" onclick="tampilan('8')">8</button>
+                </div>
+                <div class="number">
+                    <button value="9" onclick="tampilan('9')">9</button>
+                </div>
+                <div class="number">
+                    <button class="pinggir" value="*" onclick="tampilan('*')">X</button>
+                </div>
+                <div class="number">
+                    <button value="4" onclick="tampilan('4')">4</button>
+                </div>
+                <div class="number">
+                    <button value="5" onclick="tampilan('5')">5</button>
+                </div>
+                <div class="number">
+                    <button value="6" onclick="tampilan('6')">6</button>
+                </div>
+                <div class="number">
+                    <button class="pinggir" value="-" onclick="tampilan('-')">-</button>
+                </div>
+                <div class="number">
+                    <button value="1" onclick="tampilan('1')">1</button>
+                </div>
+                <div class="number">
+                    <button value="2" onclick="tampilan('2')">2</button>
+                </div>
+                <div class="number">
+                    <button value="3" onclick="tampilan('3')">3</button>
+                </div>
+                <div class="number">
+                    <button class="pinggir" value="+" onclick="tampilan('+')" id="+">+</button>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="number-bot">
+                    <button class="long" value="0" onclick="tampilan('0')">0</button>
+                </div>
+                <div class="number-bot">
+                    <button value="." onclick="tampilan('.')">.</button>
+                </div>
+                <div class="number-bot">
+                    <button class="pinggir" value="=" onclick="hitung()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <p>&copy;2023 Fitriana - Calculator</p>
+        </div>
+    </footer>
+</body>
+</html>

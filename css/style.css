@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.judul{
+   text-align: center;
+   margin-top: 20px;
+}
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-calculator {
+    height: 500px;
+    width: 340px;
+    background-color: black;
+    border-radius: 10px;
+}
+.atas{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+.layar {
+    height: 80px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.79);
+    border-radius: 5px;
+}
+.layar input{
+    z-index: 100;
+    padding: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    overflow: hidden;
+    font-size: 30px;
+}
+.nomor {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 69px 69px 69px 69px;
+    row-gap: 10px;
+    column-gap: 10px;
+    font-size: 45px;
+    padding-left: 20px;
+    
+}
+.number button{
+    background-color: grey;
+    border-color: transparent;
+    border-radius: 100%;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    flex-direction: row;    
+}
+.number-bot{
+    padding: 5px;
+}
+.number-bot button{
+    background-color: grey;
+    border-color: transparent;
+    border-radius: 100%;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    margin-right:6px ;
+    cursor: pointer;
+}
+.number-bot button.long{
+    width: 130px;
+    height: 55px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+button.pinggir{
+    background-color: orange;
+}
+.footer-container{
+    background-color: blanchedalmond;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
